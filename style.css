@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* justify-content: space-around; */
+}
+
+.card {
+  width: 8rem;
+}
+
+/* .card:hover {
+  cursor: pointer;
+  transform: scale(1.25);
+} */
+
+.card-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.btn-show-person {
+  padding: 0 3px;
+}
